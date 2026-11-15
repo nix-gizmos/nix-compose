@@ -60,7 +60,7 @@
       "matchManagers": [
         "custom.regex"
       ],
-      "commitMessagePrefix": "build(deps):",
+      "commitMessagePrefix": "fix(go):",
       "prBodyNotes": [
         "This PR is opened as soon as Go publishes the release, off the weekly schedule. The locked `go-overlay` is usually older than the release, so CI fails with ``attribute '\"X.Y.Z\"' missing`` until you run `nix flake update go-overlay` on this branch and push. go-overlay adds a release's manifest within hours of go.dev; if the update finds none yet, try again later."
       ],
